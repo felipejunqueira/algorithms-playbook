@@ -1,0 +1,32 @@
+# Ignorar executáveis sem extensão (gerados pelo gcc/g++ no Linux)
+*
+!*/
+!*.cpp
+!*.c
+!*.py
+!*.rs
+!*.java
+!*.h
+!*.hpp
+!Makefile
+!README.md
+!.gitignore
+!Cargo.toml
+!**/src/
+!**/src/**
+
+# Java classes
+*.class
+
+# Rust cargo output
+**/target/
+Cargo.lock
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDEs e configurações locais
+.vscode/
+.runinfo*
+.DS_Store
