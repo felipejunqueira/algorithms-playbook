@@ -22,7 +22,7 @@ fn main() {
     // Truly passing by reference
     // ! says it is a Macro
     let mut array = vec![64, 34, 25, 12, 22, 11, 90];
-    println!("Before: {:.?}", array); 
+    println!("Before: {:?}", array); 
     bubble_sort(&mut array); 
-    println!("After: {:.?}", array)
+    println!("After: {:?}", array);
 }

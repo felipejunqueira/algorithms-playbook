@@ -14,8 +14,7 @@ fn insertion_sort<T: PartialOrd + Copy>(array: &mut[T]) {
 
 fn main() {
     let mut list = vec![5, 9, 1, 5, 6];
-    // {:.?} is for alignment/padding, usually {:?} might be enough
-    println!("Original: {:.?}", list);
+    println!("Original: {:?}", list);
     insertion_sort(&mut list);
-    println!("Sorted: {:.?}", list);
+    println!("Sorted: {:?}", list);
 }
